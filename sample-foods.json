@@ -1,0 +1,24 @@
+{
+	"foods":[
+		{
+			"name": "aubergine",
+			"cooking": "raw",
+			"state": "solid"
+		},
+		{
+			"name": "haddock",
+			"cooking": "raw",
+			"state": "solid"
+		},
+		{
+			"name": "banana",
+			"cooking": "raw",
+			"state": "solid"
+		},
+		{
+			"name": "anchovy",
+			"cooking": "raw",
+			"state": "solid"
+		}
+	]
+}

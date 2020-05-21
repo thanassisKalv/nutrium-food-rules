@@ -1,0 +1,66 @@
+{
+	"solid":{
+		"rules": [
+			{
+				"name": "Protein",
+				"ruleType": "calorie_percent",
+				"richIn":  0.2,
+				"containsNutrient":  0.12,
+				"kcal": 4,
+				"nutrients": [1]
+			},
+			{
+				"name": "Fat",
+				"ruleType": "quant_sum",
+				"richIn": 3,
+				"lowIn": 3,
+				"nutrients": [2]
+			},
+			{
+				"name": "Energy",
+				"ruleType": "quant_sum",
+				"richIn": 40,
+				"lowIn": 40,
+				"nutrients": [5]
+			},
+			{
+				"name": "Sugar",
+				"ruleType": "quant_sum",
+				"richIn": 5,
+				"lowIn": 5,
+				"nutrients": [18]
+			},
+			{
+				"name": "Fiber",
+				"ruleType": "quant_sum",
+				"richIn": 6,
+				"containsNutrient": 3,
+				"nutrients": [20]
+			},
+			{
+				"name": "Sodium",
+				"ruleType": "quant_sum",
+				"richIn":  120,
+				"lowIn":  120,
+				"nutrients": [26]
+			},
+			{
+				"name": "Saturated_fat",
+				"ruleType": "quant_sum",
+				"richIn": 1.5,
+				"lowIn": 1.5,
+				"nutrients": [90,91]
+			},
+			{
+				"name": "Chloride",
+				"ruleType": "quant_sum",
+				"richIn":  240,
+				"containsNutrient":  120,
+				"nutrients": [166]
+			}
+		]
+	},
+	"liquid":{
+	
+	}
+}
