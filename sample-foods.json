@@ -19,6 +19,11 @@
 			"name": "anchovy",
 			"cooking": "raw",
 			"state": "solid"
+		},
+		{
+			"name": "bluefin tuna",
+			"cooking": "raw",
+			"state": "solid"
 		}
 	]
 }

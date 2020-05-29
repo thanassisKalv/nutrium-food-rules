@@ -38,11 +38,46 @@
 				"nutrients": [20]
 			},
 			{
+				"name": "Calcium",
+				"ruleType": "quant_sum",
+				"richIn": 240,
+				"containsNutrient": 120,
+				"nutrients": [21]
+			},
+			{
+				"name": "Phosphorus",
+				"ruleType": "quant_sum",
+				"richIn": 210,
+				"containsNutrient": 105,
+				"nutrients": [24]
+			},
+			{
+				"name": "Potassium",
+				"ruleType": "quant_sum",
+				"richIn": 600,
+				"containsNutrient": 300,
+				"nutrients": [25]
+			},
+			{
 				"name": "Sodium",
 				"ruleType": "quant_sum",
 				"richIn":  120,
 				"lowIn":  120,
 				"nutrients": [26]
+			},
+			{
+				"name": "Vitmamin A",
+				"ruleType": "quant_sum",
+				"richIn": 240,
+				"containsNutrient": 120,
+				"nutrients": [34]
+			},
+			{
+				"name": "Vitmamin B-6",
+				"ruleType": "quant_sum",
+				"richIn": 0.4,
+				"containsNutrient": 0.2,
+				"nutrients": [57]
 			},
 			{
 				"name": "Saturated_fat",

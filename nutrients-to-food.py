@@ -55,7 +55,7 @@ def calc_rule(rule, foodItem, srchFd):
         if rule["lowIn"] >= result:
             print(srchFd["name"] + " lowIn " + rule["name"])
             return
-    print(srchFd["name"] + " /// " + rule["name"])
+    #print(srchFd["name"] + " /// " + rule["name"])
             
 """
 Firstly, keep the result with the shortest name from "COFID_2015" db if exists 
