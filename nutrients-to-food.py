@@ -69,12 +69,12 @@ for srchFd in inputFoods["foods"]:
     for foodItem in nutriumDB["foods"]:
     
         if foodItem["information_source_id"] != 23:
-            if srchFd["name"] in foodItem["name"].lower() and \
+            if all(x in foodItem["name"].lower() for x in srchFd["name"].split()) and \
                 (" "+srchFd["cooking"]) in foodItem["name"].lower():
                 otherDBs.append(foodItem)
             continue
         else:
-            if srchFd["name"] in foodItem["name"].lower() and \
+            if all(x in foodItem["name"].lower() for x in srchFd["name"].split()) and \
                 (" "+srchFd["cooking"]) in foodItem["name"].lower():
                 foundIn_COFID2015 = True
                 if len(cofidDB)==0:
